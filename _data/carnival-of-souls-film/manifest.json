@@ -1,0 +1,38 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://hdevoinnelson.github.io/carnival-of-souls/carnival-of-souls-film/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Carnival of Souls film" ] },
+    "provider": [
+      {
+        "id": "https://www.youtube.com/@CultCinemaClassics",
+        "type": "Agent",
+        "label": { "en": [ "Cult Cinema Classics YouTube" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://hdevoinnelson.github.io/carnival-of-souls/carnival-of-souls-film/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 4663.0,
+        "items": [
+          {
+            "id": "https://hdevoinnelson.github.io/carnival-of-souls/carnival-of-souls-film/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://hdevoinnelson.github.io/carnival-of-souls/carnival-of-souls-film/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.youtube.com/watch?v=vNYg4YWkp0k",
+                    "duration": 4663.0
+                },
+                "target": "https://hdevoinnelson.github.io/carnival-of-souls/carnival-of-souls-film/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
